@@ -154,7 +154,7 @@ def sample_ae(path, n=8):
     figure = np.round(figure, 0).astype('uint8')
     imageio.imwrite(path, figure)
 
-nn.MSELoss
+
 for epoch in range(1000):
     for i, x_real in enumerate(dataloader):
         optimizer.zero_grad()
